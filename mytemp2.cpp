@@ -33,6 +33,8 @@ void debvec(vll v){cout<<"deb:: ";for(auto x:v) cout<<x<<" ";cout<<endl;}
 
 ll i,j,k;
 
+
+//main fun
 void S()
 {
     ll n,m,sum,t,r,a,b,c,x,y,z,lo,hi,q,ans,sol,res,mid,f;
@@ -42,6 +44,7 @@ void S()
 }
 int main()
 {
+    S();
     return 0;
 
 }

@@ -8,6 +8,7 @@
 #define mp make_pair
 #define all(v) (v).begin(),(v).end()
 #define deb(x) cout<<#x<<" = "<<x<< "\n"
+#define deb(x,y) cout<<#x<<" = "<<x<<" , "<<#y<<" = "<<y<<"\n"
 using namespace std;
 //using namespace __gnu_pbds;
 
@@ -28,6 +29,7 @@ template <class T> using r_multi_ordered_set = tree<T, null_type, greater_equal<
 // s.find_by_order(k); --> k-th item in set (0-indexing) (returns iterator)
 void debvec(vll v){cout<<"deb:: ";for(auto x:v) cout<<x<<" ";cout<<endl;}
 //variables
+
 
 ll i,j,k;
 
